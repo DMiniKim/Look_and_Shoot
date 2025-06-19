@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|solutionrelative:Look_and_Shoot\\Look_and_Shoot.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Look_and_Shoot.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot.cpp",
+              "RelativeDocumentMoniker": "Look_and_Shoot\\Look_and_Shoot.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot.cpp",
+              "RelativeToolTip": "Look_and_Shoot\\Look_and_Shoot.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-19T04:06:35.793Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
