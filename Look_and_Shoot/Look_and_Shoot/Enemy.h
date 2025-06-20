@@ -3,10 +3,10 @@
 class Enemy :   public Object
 {
 private:
-	bool activation;
+	
 public:
-	Enemy();
-	virtual void Move()override;
+	virtual void Init() override;
+	virtual void Update() override;
 	
 };
 

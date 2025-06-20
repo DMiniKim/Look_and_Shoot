@@ -1,31 +1,16 @@
 #include "Player.h"
+#include "DoubleBuffer.h"
 
-Player::Player()
+void Player::Init()
 {
-	if (bullet != nullptr)
-	{
-		bullet = nullptr;
-	}
+	x = 15;
+	y = 15;
 	shape = "■";
 }
 
-int& Player::GetPlayerX()
+void Player::Update()
 {
-	return x;
-}
-
-int& Player::GetPlayerY()
-{
-	return y;
-}
-
-void Player::SetPlayerXY(int _x, int _y)
-{
-	x = _x;
-	y = _y;
-}
-
-void Player::Move()
-{
-	// 이동 관련 클래스에서 여기가져와서 적용
+	// 방향키 누르면 해당 방향으로 Bullet 발사 구현.
+	cout << "발사" <<endl;
+	DoubleBuffer::GetInstance()->WriteBuffer(x, y, shape, 10);
 }

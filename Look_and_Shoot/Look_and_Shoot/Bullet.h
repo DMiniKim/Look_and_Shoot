@@ -6,6 +6,6 @@ private:
 	bool activation;
 public:
 	Bullet();
-	virtual void Move()override;
+
 };
 

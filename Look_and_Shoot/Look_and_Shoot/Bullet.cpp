@@ -4,6 +4,3 @@ Bullet::Bullet()
 {
 }
 
-void Bullet::Move()
-{
-}

@@ -7,8 +7,11 @@ class Object
 protected:
 	int x;
 	int y;
+	const char* shape;
 
 public:
-	virtual void Move();
+	virtual void Init() abstract;
+	virtual void Update() abstract;
+
 };
 
