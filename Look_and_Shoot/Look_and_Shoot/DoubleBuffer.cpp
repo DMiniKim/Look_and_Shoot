@@ -1,4 +1,5 @@
 #include "DoubleBuffer.h"
+#include "GameManager.h"
 
 DoubleBuffer* DoubleBuffer::instance = nullptr;
 
