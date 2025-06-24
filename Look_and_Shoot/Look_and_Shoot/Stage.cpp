@@ -2,45 +2,57 @@
 #include "DoubleBuffer.h"
 #include "SceneManager.h"
 #include "Player.h"
+#include "CountDownState.h"
 
-
-//
-//#######  #######    ##
-//###  ##  ###  ##    ##
-//     ##       ##    ##
-//   ####  #######    ###
-//     ##  ##         ###   
-//###  ##  ###        ###
-//#######  #######    ###
 
 
 void Stage::Init()
 {
 	player = new Player;
 	player->Init();
+	score = 0;
+	if (curState == nullptr)
+	{
+		curState = new CountDownState;
+	}
 }
 
 void Stage::Update()
 {
-	static bool isGameStart = false;
-
-	// Player  해결 해야함
-	for (auto x = 0; x < WIDTH; x++)
+	if (curState)
 	{
-		for (auto y = 0; y < HEIGHT; y++)
-		{
-			switch (map[y][x])
-			{
-			case 0:
-				DoubleBuffer::GetInstance()->WriteBuffer(x, y, "  ", 13);
-				break;
-			case 1:
-				DoubleBuffer::GetInstance()->WriteBuffer(x, y, "■", 13);
-				break;
-			default:
-				break;
-			}
-		}
-	}	
-	player->Update();
+		curState->Update(this);
+	}
+
+
+	//static bool isGameStart = false;
+	//
+	//
+	//for (auto x = 0; x < WIDTH; x++)
+	//{
+	//	for (auto y = 0; y < HEIGHT; y++)
+	//	{
+	//		switch (map[y][x])
+	//		{
+	//		case 0:
+	//			DoubleBuffer::GetInstance()->WriteBuffer(x, y, "  ", 13);
+	//			break;
+	//		case 1:
+	//			DoubleBuffer::GetInstance()->WriteBuffer(x, y, "■", 13);
+	//			break;
+	//		default:
+	//			break;
+	//		}
+	//	}
+	//}	
+	//player->Update();
+}
+
+void Stage::ChangeState(StageState* newstate)
+{
+	if (curState)
+	{
+		delete curState;
+		curState = newstate;
+	}
 }

@@ -1,28 +1,28 @@
 #include "GameManager.h"
 
+
 GameManager::GameManager()
 {
-	
+	doubleBuffer = DoubleBuffer::GetInstance();
+	sceneManager = SceneManager::GetInstance();
 }
 
-void GameManager::SetCursor(int x, int y)
+void GameManager::Init()
 {
-	COORD pos;
-	pos.X = x;
-	pos.Y = y;
-	SetConsoleCursorPosition(GetStdHandle(STD_OUTPUT_HANDLE), pos);
+	doubleBuffer->InitBuffer();
+	sceneManager->SetScene(TITLE);
 }
 
-void GameManager::ChangeColor(int color)
+void GameManager::Run()
 {
-	SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), color);
-}
+    while (true)
+    {
+        sceneManager->Update();
 
-void GameManager::HideCursor()
-{
-	CONSOLE_CURSOR_INFO info;
-	info.bVisible = false;
-	info.dwSize = 1;
+        doubleBuffer->FlipBuffer();
+        doubleBuffer->ClearBuffer();
 
-	SetConsoleCursorInfo(GetStdHandle(STD_OUTPUT_HANDLE), &info);
+        Sleep(16);
+    }
+    doubleBuffer->CloseBuffer();
 }

@@ -5,7 +5,7 @@
 #define BufferWidth 62
 #define BufferHeight 31
 
-class DoubleBuffer
+class DoubleBuffer  // 연출 감독
 {
 private:
 	static DoubleBuffer* instance;

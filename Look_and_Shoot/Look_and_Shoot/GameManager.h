@@ -1,8 +1,10 @@
 #pragma once
 #include <iostream>
 #include <Windows.h>
-#define WIDTH 31
-#define HEIGHT 31
+
+#include "SceneManager.h"
+#include "DoubleBuffer.h"
+
 
 enum Color
 {
@@ -26,14 +28,15 @@ enum Color
 
 using namespace std;
 
-class GameManager
+class GameManager // °¨µ¶´Ô
 {
+private:
+	SceneManager* sceneManager;
+	DoubleBuffer* doubleBuffer;
 public:
-	
 	GameManager();
-	void SetCursor(int x, int y);
-
-	void ChangeColor(int color);
-	void HideCursor();
+	void Init();
+	void Run();
+	
 };
 

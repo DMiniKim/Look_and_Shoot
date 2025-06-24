@@ -13,7 +13,7 @@ enum SCENE_ID
 	STAGE,
 };
 
-class SceneManager
+class SceneManager // 무대 감독
 {
 private:
 	static SceneManager* instance;

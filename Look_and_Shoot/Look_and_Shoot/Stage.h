@@ -1,8 +1,17 @@
 #pragma once
 #include "Scene.h"
 #include "GameManager.h"
+#include "Player.h"
+
+class StageState;
+
 class Stage : public Scene
 {
+
+private:
+	StageState* curState = nullptr;
+	class Player* player = nullptr;
+	int score;
 public:
 	int map[WIDTH][HEIGHT]
 		= {
@@ -38,10 +47,10 @@ public:
 		{0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0,1,1,1,1,1,1,1,1,1,1,1,1,1,1,0},
 		{0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0},
 		};
-	class Player* player = nullptr;
 public:
 	virtual void Init() override;
 	virtual void Update() override;
+	void ChangeState(StageState* newstage);
 private:
 	~Stage()
 	{
@@ -49,6 +58,11 @@ private:
 		{
 			delete player;
 			player = nullptr;
+		}
+		if (curState != nullptr)
+		{
+			delete curState;
+			curState = nullptr;
 		}
 	}
 };

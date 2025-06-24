@@ -25,8 +25,26 @@
     <Filter Include="소스 파일\Object\Bullet">
       <UniqueIdentifier>{01721f32-d0e7-4605-b21e-432d978d0a31}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\New Class">
+    <Filter Include="소스 파일\Scene">
       <UniqueIdentifier>{479c78dd-81a4-4e13-8f29-7ca0953adece}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scene\Stage">
+      <UniqueIdentifier>{fe28ace2-cf74-484a-bb0d-d9af6c2317d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scene\Title">
+      <UniqueIdentifier>{8d3e3f5f-f3f2-44a7-b1d4-a699d663e62b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scene\Stage\StageState">
+      <UniqueIdentifier>{2f709834-a580-4cf5-a699-9fa63fd35f6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scene\Stage\StageState\CountDownState">
+      <UniqueIdentifier>{96b20532-b0b2-4d73-ac3f-f2388e3045e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scene\Stage\StageState\GameState">
+      <UniqueIdentifier>{46ead094-1852-430f-82ee-6199cf3224c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Scene\Stage\StageState\GameOverState">
+      <UniqueIdentifier>{cc096b34-eee5-4789-bef7-4813ddd387b6}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -49,19 +67,31 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="Scene.cpp">
-      <Filter>소스 파일\New Class</Filter>
-    </ClCompile>
-    <ClCompile Include="Title.cpp">
-      <Filter>소스 파일\New Class</Filter>
-    </ClCompile>
-    <ClCompile Include="Stage.cpp">
-      <Filter>소스 파일\New Class</Filter>
+      <Filter>소스 파일\Scene</Filter>
     </ClCompile>
     <ClCompile Include="DoubleBuffer.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="SceneManager.cpp">
       <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>소스 파일\Scene\Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="Title.cpp">
+      <Filter>소스 파일\Scene\Title</Filter>
+    </ClCompile>
+    <ClCompile Include="StageState.cpp">
+      <Filter>소스 파일\Scene\Stage\StageState</Filter>
+    </ClCompile>
+    <ClCompile Include="CountDownState.cpp">
+      <Filter>소스 파일\Scene\Stage\StageState\CountDownState</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>소스 파일\Scene\Stage\StageState\GameState</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverState.cpp">
+      <Filter>소스 파일\Scene\Stage\StageState\GameOverState</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -93,6 +123,18 @@
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="SceneManager.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="StageState.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CountDownState.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverState.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
