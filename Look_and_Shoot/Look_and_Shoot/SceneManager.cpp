@@ -14,15 +14,18 @@ void SceneManager::SetScene(SCENE_ID id)
 	switch (id)
 	{
 	case TITLE:
+		delete scene;
 		scene = new Title;
 		break;
 	case STAGE:
+		delete scene;
 		scene = new Stage;
 		break;
 	default:
 		break;
 	}
 	Init();
+	Update();
 }
 
 void SceneManager::Init()

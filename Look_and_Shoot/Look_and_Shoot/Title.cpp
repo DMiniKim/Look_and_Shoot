@@ -32,7 +32,7 @@ void Title::Update()
 
 	for (auto i = 0; i < 12; i++)
 	{															
-	    DoubleBuffer::GetInstance()->WriteBuffer(9, i + 9 , shapeArr[i],    9); // 테마 구현
+	    DoubleBuffer::GetInstance()->WriteBuffer(9, i + 9 , shapeArr[i],    9); // 타이틀 구현
 	}
 	
 	DoubleBuffer::GetInstance()->WriteBuffer(13, 23, pressEnter, Yellow); // press enter 구현

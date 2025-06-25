@@ -8,9 +8,6 @@
 
 void Stage::Init()
 {
-	player = new Player;
-	player->Init();
-	score = 0;
 	if (curState == nullptr)
 	{
 		curState = new CountDownState;

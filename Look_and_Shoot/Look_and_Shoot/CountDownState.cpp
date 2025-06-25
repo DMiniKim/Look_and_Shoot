@@ -7,30 +7,47 @@
 
 CountDownState::CountDownState()
 {
-	lastTick = GetTickCount64();
+	//lastTick = GetTickCount64();
 }
 
 void CountDownState::Update(Stage* stage)
 {
-
-	DWORD now = GetTickCount64();
-
-	if (now - lastTick > 1000) // 지금 시간 - 과거시간 = 1000보다 이상일 때 실행 즉 1초마다 실행
+	for (auto x = 0; x < WIDTH; x++)
 	{
-		DoubleBuffer::GetInstance()->ClearBuffer();
-		if (countDown > 0)		// 카운트다운이 3이라 3번 실행
+		for (auto y = 0; y < HEIGHT; y++)
 		{
-			int index = countDown - 1;
-			for (auto i = 0; i < 7; i++)
+			switch (map[y][x])
 			{
-				DoubleBuffer::GetInstance()->WriteBuffer(12 + i, 12, img[index][i], 12);
-				countDown--;
-				lastTick = now; // lasttick 갱신
+			case 0:
+				DoubleBuffer::GetInstance()->WriteBuffer(x, y, "  ", 13);
+				break;
+			case 1:
+				DoubleBuffer::GetInstance()->WriteBuffer(x, y, "■", 13);
+				break;
+			default:
+				break;
 			}
 		}
-		else
+	}	
+	//DWORD now = GetTickCount64();
+
+	
+
+	for (int count = 3; count >= 0; count--)
+	{
+		if (count > 0)		// 카운트다운이 3이라 3번 실행
+		{
+			int index = count - 1;
+			for (auto i = 0; i < 7; i++)
+			{
+				DoubleBuffer::GetInstance()->WriteBuffer(12, 12 + i, img[index][i], 12);
+			}
+		}
+		else if (count <= 0)
 		{
 			stage->ChangeState(new GameState);
+			stage->Update();
 		}
 	}
+	
 }

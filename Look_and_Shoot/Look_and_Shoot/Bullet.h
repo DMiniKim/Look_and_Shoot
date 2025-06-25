@@ -3,9 +3,13 @@
 class Bullet : public Object
 {
 private:
-	bool activation;
+	bool activation = false;
+	bool visualOnOff = false;
+	const char* shapeArr[4];
 public:
-	Bullet();
+	virtual void Init() override;
+	virtual void Update() override;
+	
 
 };
 
