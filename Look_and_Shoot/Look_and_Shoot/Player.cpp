@@ -17,20 +17,99 @@ void Player::Init()
     bullet = nullptr;
     if (bullet == nullptr)
     {
-        bullet = new Bullet[10];
+        bullet = new Bullet[MAX_BULLETCOUNT];
     }
+    for (auto i = 0; i < MAX_BULLETCOUNT; i++)
+    {
+        bullet[i].Init();
+    }
+
 }
 
 void Player::Update()
 {
-	
+    
 	// 방향키 누르면 해당 방향으로 Player 방향 구현.
     
     // 방향만 갱신
-    if (GetAsyncKeyState(VK_LEFT) & 0x8000) dir = DIR_LEFT;
-    if (GetAsyncKeyState(VK_RIGHT) & 0x8000) dir = DIR_RIGHT;
-    if (GetAsyncKeyState(VK_UP) & 0x8000) dir = DIR_UP;
-    if (GetAsyncKeyState(VK_DOWN) & 0x8000) dir = DIR_DOWN;
+    if (GetAsyncKeyState(VK_LEFT) & 0x8000)
+    { 
+        dir = DIR_LEFT; 
+        if (bulletCount < MAX_BULLETCOUNT)
+        {
+            //DoubleBuffer::GetInstance()->WriteBuffer(7, 7, "FIRE", 12);
+
+            for (auto i = 0; i < MAX_BULLETCOUNT; i++)
+            {
+                if (!bullet[i].IsActivate)
+                {
+                    bullet[i].Fire(dir);
+                    bulletCount++;                
+                    break;
+                }
+            }
+        }
+    }
+    if (GetAsyncKeyState(VK_RIGHT) & 0x8000) 
+    { 
+        dir = DIR_RIGHT; 
+        if (bulletCount < MAX_BULLETCOUNT)
+        {
+            //DoubleBuffer::GetInstance()->WriteBuffer(7, 7, "FIRE", 12);
+
+            for (auto i = 0; i < MAX_BULLETCOUNT; i++)
+            {
+                if (!bullet[i].IsActivate)
+                {
+                    bullet[i].Fire(dir);
+                    bulletCount++;
+                    break;
+                }
+            }
+        }
+    }
+    if (GetAsyncKeyState(VK_UP) & 0x8000) 
+    { 
+        dir = DIR_UP; 
+        if (bulletCount < MAX_BULLETCOUNT)
+        {
+            //DoubleBuffer::GetInstance()->WriteBuffer(7, 7, "FIRE", 12);
+
+            for (auto i = 0; i < MAX_BULLETCOUNT; i++)
+            {
+                if (!bullet[i].IsActivate)
+                {
+                    bullet[i].Fire(dir);
+                    bulletCount++;
+                    break;
+                }
+            }
+        }
+    }
+    if (GetAsyncKeyState(VK_DOWN) & 0x8000) 
+    { 
+        dir = DIR_DOWN; 
+        if (bulletCount < MAX_BULLETCOUNT)
+        {
+            //DoubleBuffer::GetInstance()->WriteBuffer(7, 7, "FIRE", 12);
+
+            for (auto i = 0; i < MAX_BULLETCOUNT; i++)
+            {
+                if (!bullet[i].IsActivate)
+                {
+                    bullet[i].Fire(dir);
+                    bulletCount++;
+                    break;
+                }
+            }
+        }       
+    }
+    for (auto i = 0; i < MAX_BULLETCOUNT; i++)
+    {
+        bullet[i].Update();
+    }
+
+    
 
     // 그리기
     for (int dx = 0; dx < 3; dx++)

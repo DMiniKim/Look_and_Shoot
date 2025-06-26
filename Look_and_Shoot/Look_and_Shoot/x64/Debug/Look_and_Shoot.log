@@ -1,24 +1,2 @@
-﻿  Bullet.cpp
-  CountDownState.cpp
-  Enemy.cpp
-  GameOverState.cpp
-  GameState.cpp
-  Look_and_Shoot.cpp
-  Object.cpp
-  Player.cpp
-  Scene.cpp
-  SceneManager.cpp
-C:\Users\Administrator\Desktop\Look_and_Shoot\Look_and_Shoot\Look_and_Shoot\Stage.h(23,4): warning C4150: 불완전한 형식 'StageState'에 대한 포인터를 삭제했습니다. 소멸자가 호출되지 않습니다.
-  (소스 파일 'SceneManager.cpp'을(를) 컴파일하는 중)
-      C:\Users\Administrator\Desktop\Look_and_Shoot\Look_and_Shoot\Look_and_Shoot\Stage.h(6,7):
-      'StageState' 선언을 참조하십시오.
-  
-  Stage.cpp
-C:\Users\Administrator\Desktop\Look_and_Shoot\Look_and_Shoot\Look_and_Shoot\Stage.h(23,4): warning C4150: 불완전한 형식 'StageState'에 대한 포인터를 삭제했습니다. 소멸자가 호출되지 않습니다.
-  (소스 파일 'Stage.cpp'을(를) 컴파일하는 중)
-      C:\Users\Administrator\Desktop\Look_and_Shoot\Look_and_Shoot\Look_and_Shoot\Stage.h(6,7):
-      'StageState' 선언을 참조하십시오.
-  
-  Title.cpp
-  코드를 생성하고 있습니다...
+﻿  GameManager.cpp
   Look_and_Shoot.vcxproj -> C:\Users\Administrator\Desktop\Look_and_Shoot\Look_and_Shoot\x64\Debug\Look_and_Shoot.exe
