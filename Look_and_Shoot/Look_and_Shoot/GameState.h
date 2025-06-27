@@ -1,10 +1,13 @@
 #pragma once
 #include "StageState.h"
 #include "Stage.h"
+#define MAX_ENEMY 10
+
 class GameState : public StageState
 {
 private:
 	class Player* player = nullptr;
+	class Enemy* enemy = nullptr;
 public:
 	int map[WIDTH][HEIGHT]
 		= 

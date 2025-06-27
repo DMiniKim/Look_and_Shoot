@@ -4,7 +4,7 @@ using namespace std;
 
 class Object
 {
-protected:
+public:
 	int x;
 	int y;
 	const char* shape;

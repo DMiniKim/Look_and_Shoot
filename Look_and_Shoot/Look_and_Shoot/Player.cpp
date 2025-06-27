@@ -106,9 +106,19 @@ void Player::Update()
     }
     for (auto i = 0; i < MAX_BULLETCOUNT; i++)
     {
-        bullet[i].Update();
-    }
+        if (bullet[i].IsActivate)
+        {
+            bullet[i].Update();
 
+            // 여기서 비활성화되었는지 체크
+            if (!bullet[i].IsActivate)
+            {
+                bulletCount--; // 사용 가능한 총알 수 복구
+            }
+        }
+    }
+   
+    
     
 
     // 그리기

@@ -6,6 +6,9 @@ void Bullet::Init()
 {
 	x = 15;
 	y = 15;
+	bulletDir = -1;
+	IsActivate = false;
+	IsVisual = false;
 	shapeArr[0] = "⊂";
 	shapeArr[1] = "⊃";
 	shapeArr[2] = "∩";
@@ -15,6 +18,8 @@ void Bullet::Init()
 
 void Bullet::Update()
 {
+	if (!IsActivate) return;
+
 	switch (bulletDir)
 	{
 	case 0:
@@ -35,7 +40,11 @@ void Bullet::Update()
 
 	if (x < 14 || y < 14 || x>16 || y>16) // 특정 범위를 벗어나면 
 	{
-		IsVisual = true; // 비주얼 활성화
+		if (!IsVisual)
+		{
+			IsVisual = true; // 비주얼 활성화
+			return;
+		}
 
 	}
 
@@ -58,6 +67,7 @@ void Bullet::Update()
 			DoubleBuffer::GetInstance()->WriteBuffer(x, y, shapeArr[3], 7);
 		}
 	}
+
 	Disappear(x, y);
 }
 
@@ -67,38 +77,21 @@ void Bullet::Fire(int dir)
 	bulletDir = dir;
 	IsActivate = true;
 	// 발사 방향에 따른 로직
-	if (dir == DIR_LEFT){ x -= 1; }
-	else if (dir == DIR_RIGHT){ x += 1; }
-	else if (dir == DIR_UP) { y -= 1; }
-	else if (dir == DIR_DOWN){ y += 1; }
+	switch (dir)
+	{
+	case DIR_LEFT: x -= 1; break;
+	case DIR_RIGHT: x += 1; break;
+	case DIR_UP: y -= 1; break;
+	case DIR_DOWN: y += 1; break;
+	}
 	
 }
 
 void Bullet::Disappear(int _x, int _y)
 {
-	if (_x < 1 )
+	if (_x < 1 || _y < 1 || _x > 29 || _y > 29)
 	{
-		IsActivate = false;
-		IsVisual = false;
-		x = 15;
-		y = 15;
-	}
-	else if (_y < 1)
-	{
-		IsActivate = false;
-		IsVisual = false;
-		x = 15;
-		y = 15;
-	}
-	else if (_x > 58)
-	{
-		IsActivate = false;
-		IsVisual = false;
-		x = 15;
-		y = 15;
-	}
-	else if (_y > 29)
-	{
+		DoubleBuffer::GetInstance()->WriteBuffer(x, y, "  ", 0);
 		IsActivate = false;
 		IsVisual = false;
 		x = 15;

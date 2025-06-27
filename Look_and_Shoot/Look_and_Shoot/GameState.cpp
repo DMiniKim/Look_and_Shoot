@@ -1,10 +1,14 @@
 #include "GameState.h"
 #include "GameOverState.h"
+#include "Enemy.h"
 
 GameState::GameState()
 {
 	if (player == nullptr)	player = new Player;
 
+	if (enemy == nullptr) enemy = new Enemy[10];
+
+	enemy->Init();
 	player->Init();
 	score = 0;
 }
@@ -33,8 +37,12 @@ void GameState::Update(Stage* stage)
 		stage->ChangeState(new GameOverState);
 		stage->Update();
 	}
-	player->Update();
+	for (auto i = 0; i < MAX_ENEMY; i++)
+	{
+		enemy[i].Update();
+	}
 
+	player->Update();
 	
 	
 	//stage->ChangeState(new GameOverState);

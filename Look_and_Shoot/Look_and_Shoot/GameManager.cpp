@@ -22,7 +22,7 @@ void GameManager::Run()
         doubleBuffer->FlipBuffer();
         doubleBuffer->ClearBuffer();
 
-        Sleep(100);
+        Sleep(50);
     }
     doubleBuffer->CloseBuffer();
 }
