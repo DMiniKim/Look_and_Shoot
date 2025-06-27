@@ -3,6 +3,9 @@
 #include "Bullet.h"
 Direction dir = DIR_LEFT;
 
+Bullet* Player::bullet = nullptr;
+int Player::bulletCount = 0;
+
 void Player::Init()
 {
 	x = 15;
@@ -14,7 +17,6 @@ void Player::Init()
 	shapeArr[4] = "▼";
 	shapeArr[5] = "  ";
 	// 데이터 절약을 위해 방법은 많았지만 이렇게 해봄.
-    bullet = nullptr;
     if (bullet == nullptr)
     {
         bullet = new Bullet[MAX_BULLETCOUNT];

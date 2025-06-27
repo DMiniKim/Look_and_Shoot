@@ -18,6 +18,8 @@ void Bullet::Init()
 
 void Bullet::Update()
 {
+	prevX = x;
+	prevY = y;
 	if (!IsActivate) return;
 
 	switch (bulletDir)
@@ -97,5 +99,26 @@ void Bullet::Disappear(int _x, int _y)
 		x = 15;
 		y = 15;
 	}
+	
+}
+
+int Bullet::GetX()
+{
+	return x;
+}
+
+int Bullet::GetY()
+{
+	return y;
+}
+
+int Bullet::GetPrevX()
+{
+	return prevX;
+}
+
+int Bullet::GetPrevY()
+{
+	return prevY;
 }
 
