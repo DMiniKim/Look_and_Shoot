@@ -11,15 +11,15 @@ class Player :public Object
 {
 private:
 	const char* shapeArr[6];
-	int hp = 10;
 public:
+	static int hp;
 	static int bulletCount;
 	static Bullet* bullet;
 public:
 	
 	virtual void Init() override;
 	virtual void Update() override;
-	int& GetHP();
+	int GetHP();
 	~Player()
 	{
 		delete[] bullet;

@@ -10,25 +10,23 @@ void Enemy::Init()
 	x = 7;
 	y = 7;
 	shape = "▦";
-	Create();
-	srand((unsigned int)time(NULL));
+
 	xyDir= DEFAULT;
 }
 
 void Enemy::Update()
 {
-	prevX = x;
-	prevY = y;
+	prevX = x;	//충돌 검사용 
+	prevY = y;	
 
-	Create();
 
-	if (IsVisual && !DEFAULT)
+	if (IsVisual && (xyDir !=DEFAULT))
 	{
-		switch (xyDir)
+		switch (xyDir)		// 좌표에 따라 가는 방향 지정
 		{
-		case TOPTOBOT: y++;
+		case TOPTOBOT: y++;			
 			break;
-		case BOTTOTOP: y--;
+		case BOTTOTOP: y--;			
 			break;
 		case LEFTTORIGHT: x++;
 			break;
@@ -37,26 +35,24 @@ void Enemy::Update()
 		default:
 			break;
 		}
+		DoubleBuffer::GetInstance()->WriteBuffer(x, y, shape, 4);
 	}
-
 
 	Disappear(x,y);
 	
 }
 
-void Enemy::Create()
+void Enemy::Create(XYDirection dir)
 {
-	int probability = rand() % 10000; // 1/1000 확률을 위함
-	if (probability == 500) // 500이라는 0.01퍼센트의 확률 마다 생성
-	{
-		xyDir = (XYDirection)(rand() % 4);
-		RandomDir(xyDir);
-	}
+	
+	xyDir = dir;
+	SetDir();
+
 }
 
-void Enemy::RandomDir(XYDirection dir)
+void Enemy::SetDir()
 {
-	switch (dir)
+	switch (xyDir)
 	{
 	case TOPTOBOT:
 		x = 15;
@@ -78,25 +74,69 @@ void Enemy::RandomDir(XYDirection dir)
 		break;
 	}
 	IsVisual = true;
-	SetEnemyXY(x, y,dir);
 }
 
-void Enemy::SetEnemyXY(int _x , int _y, XYDirection dir)
-{
-	if (IsVisual)
-	{
-		DoubleBuffer::GetInstance()->WriteBuffer(x, y, shape, 4);
-	}
-}
 
 void Enemy::Disappear(int _x,int _y)
 {
-	for (auto i = 0; i < Player::bulletCount; i++)
-	{	
-		if (Player::bullet[i].IsActivate)
+	if (((this->x < 17) &&(this->x > 13)) && ( (this->y >13) && (this->y<17) ) ) // player근처가면 사라지게 구현해야함
+	{
+		if (Player::hp > 0)
 		{
-			int;
+			DoubleBuffer::GetInstance()->WriteBuffer(7, 7, "  ", 0);
+			IsVisual = false;
+			(Player::hp)--;
+			return;
+		}
+		else
+		{
+			return;
+		}
+	}
+	else
+	{
 
+		if (Player::bullet == nullptr) return; // 안전장치
+
+		for (auto i = 0; i < MAX_BULLETCOUNT; i++)
+		{
+
+			Bullet& b = Player::bullet[i];
+
+			if (b.IsActivate)
+			{
+				int bulletPrevX = b.GetPrevX();
+				int bulletPrevY = b.GetPrevY();
+
+				int bulletCurrX = b.GetX();
+				int bulletCurrY = b.GetY();
+
+				int enemyPrevX = prevX;
+				int enemyPrevY = prevY;
+
+				int enemyCurrX = x;
+				int enemyCurrY = y;
+
+				bool isXCrossed =
+					(min(bulletPrevX, bulletCurrX) <= max(enemyPrevX, enemyCurrX)) &&
+					(max(bulletPrevX, bulletCurrX) >= min(enemyPrevX, enemyCurrX));
+
+				bool isYCrossed =
+					(min(bulletPrevY, bulletCurrY) <= max(enemyPrevY, enemyCurrY)) &&
+					(max(bulletPrevY, bulletCurrY) >= min(enemyPrevY, enemyCurrY));
+
+				if (isXCrossed && isYCrossed)
+				{
+					// Bullet 소멸
+					b.Disappear(bulletCurrX, bulletCurrY);
+
+					// Enemy 소멸
+					DoubleBuffer::GetInstance()->WriteBuffer(x, y, "  ", 0);
+					IsVisual = false;
+
+					return;
+				}
+			}
 		}
 	}
 }

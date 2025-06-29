@@ -28,6 +28,7 @@ void GameOverState::Update(Stage* stage)
 	for (int i = 0; i < 7; i++)
 	{
 		DoubleBuffer::GetInstance()->WriteBuffer(12, 12 + i, ui[i], 9);
+		DoubleBuffer::GetInstance()->WriteBuffer(13, 15,over , 9);
 	}
 	if (GetAsyncKeyState(VK_RETURN))
 	{

@@ -5,6 +5,7 @@ Direction dir = DIR_LEFT;
 
 Bullet* Player::bullet = nullptr;
 int Player::bulletCount = 0;
+int Player::hp = 10;
 
 void Player::Init()
 {
@@ -116,8 +117,9 @@ void Player::Update()
             if (!bullet[i].IsActivate)
             {
                 bulletCount--; // 사용 가능한 총알 수 복구
+                if (bulletCount < 0) bulletCount = 0; // 음수 방지 안전장치
             }
-        }
+        }                      
     }
    
     
@@ -153,7 +155,7 @@ void Player::Update()
     }
 }
 
-int& Player::GetHP()
+int Player::GetHP()
 {
     return hp;
 }

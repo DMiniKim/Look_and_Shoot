@@ -6,9 +6,9 @@ class Bullet : public Object
 private:
 	const char* shapeArr[4];
 	int bulletDir;
+public:
 	int prevX;
 	int prevY;
-public:
 	bool IsVisual = false;
 	bool IsActivate = false;
 	virtual void Init() override;
