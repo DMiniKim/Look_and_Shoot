@@ -1,118 +1,110 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\",
+  "WorkspaceRootPath": "C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\GameOverState.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|solutionrelative:Look_and_Shoot\\GameOverState.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\GameOverState.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|solutionrelative:Look_and_Shoot\\GameOverState.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\GameState.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|solutionrelative:Look_and_Shoot\\GameState.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Enemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Enemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|solutionrelative:Look_and_Shoot\\Enemy.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Enemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|solutionrelative:Look_and_Shoot\\Enemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\GameState.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|solutionrelative:Look_and_Shoot\\GameState.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|solutionrelative:Look_and_Shoot\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Stage.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|solutionrelative:Look_and_Shoot\\Stage.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Bullet.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|solutionrelative:Look_and_Shoot\\Bullet.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|solutionrelative:Look_and_Shoot\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Stage.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|solutionrelative:Look_and_Shoot\\Stage.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\StageState.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|solutionrelative:Look_and_Shoot\\StageState.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\StageState.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|solutionrelative:Look_and_Shoot\\StageState.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\GameManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|solutionrelative:Look_and_Shoot\\GameManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\GameState.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|solutionrelative:Look_and_Shoot\\GameState.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Bullet.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|solutionrelative:Look_and_Shoot\\Bullet.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\GameManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\GameManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|solutionrelative:Look_and_Shoot\\GameManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\DoubleBuffer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|solutionrelative:Look_and_Shoot\\DoubleBuffer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|solutionrelative:Look_and_Shoot\\Look_and_Shoot.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Object.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|solutionrelative:Look_and_Shoot\\Object.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\SceneManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|solutionrelative:Look_and_Shoot\\SceneManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\SceneManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\SceneManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|solutionrelative:Look_and_Shoot\\SceneManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Title.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|solutionrelative:Look_and_Shoot\\Title.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Stage.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|solutionrelative:Look_and_Shoot\\Stage.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Title.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\GameManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|solutionrelative:Look_and_Shoot\\GameManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Title.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|solutionrelative:Look_and_Shoot\\Title.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\DoubleBuffer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|solutionrelative:Look_and_Shoot\\DoubleBuffer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Object.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|solutionrelative:Look_and_Shoot\\Object.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Scene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|solutionrelative:Look_and_Shoot\\Scene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\CountDownState.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\CountDownState.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|solutionrelative:Look_and_Shoot\\CountDownState.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\CountDownState.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Enemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|solutionrelative:Look_and_Shoot\\Enemy.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|solutionrelative:Look_and_Shoot\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Stage.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|solutionrelative:Look_and_Shoot\\Stage.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\StageState.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|solutionrelative:Look_and_Shoot\\StageState.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\CountDownState.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|solutionrelative:Look_and_Shoot\\CountDownState.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\GameOverState.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|solutionrelative:Look_and_Shoot\\GameOverState.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|solutionrelative:Look_and_Shoot\\Player.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\GameOverState.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|solutionrelative:Look_and_Shoot\\GameOverState.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Bullet.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|solutionrelative:Look_and_Shoot\\Bullet.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Bullet.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|solutionrelative:Look_and_Shoot\\Bullet.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\DoubleBuffer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|solutionrelative:Look_and_Shoot\\DoubleBuffer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|solutionrelative:Look_and_Shoot\\Look_and_Shoot.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Object.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|solutionrelative:Look_and_Shoot\\Object.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\SceneManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|solutionrelative:Look_and_Shoot\\SceneManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Title.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|solutionrelative:Look_and_Shoot\\Title.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\DoubleBuffer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|solutionrelative:Look_and_Shoot\\DoubleBuffer.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Object.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|solutionrelative:Look_and_Shoot\\Object.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Scene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{99766C65-9706-48FD-9D6B-6D42FDDE4219}|Look_and_Shoot\\Look_and_Shoot.vcxproj|solutionrelative:Look_and_Shoot\\Scene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -122,28 +114,29 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 3,
               "Title": "SceneManager.cpp",
-              "DocumentMoniker": "C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\SceneManager.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\SceneManager.cpp",
               "RelativeDocumentMoniker": "Look_and_Shoot\\SceneManager.cpp",
-              "ToolTip": "C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\SceneManager.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\SceneManager.cpp",
               "RelativeToolTip": "Look_and_Shoot\\SceneManager.cpp",
-              "ViewState": "AgIAABoAAAAAAAAAAAAxwCUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABwAAAAAAAAAAAAtwCYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-20T12:23:45.068Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "SceneManager.h",
-              "DocumentMoniker": "C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\SceneManager.h",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\SceneManager.h",
               "RelativeDocumentMoniker": "Look_and_Shoot\\SceneManager.h",
-              "ToolTip": "C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\SceneManager.h",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\SceneManager.h",
               "RelativeToolTip": "Look_and_Shoot\\SceneManager.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAALAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -154,9 +147,9 @@
               "$type": "Document",
               "DocumentIndex": 23,
               "Title": "DoubleBuffer.h",
-              "DocumentMoniker": "C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\DoubleBuffer.h",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\DoubleBuffer.h",
               "RelativeDocumentMoniker": "Look_and_Shoot\\DoubleBuffer.h",
-              "ToolTip": "C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\DoubleBuffer.h",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\DoubleBuffer.h",
               "RelativeToolTip": "Look_and_Shoot\\DoubleBuffer.h",
               "ViewState": "AgIAAAQAAAAAAAAAAAAawA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -165,11 +158,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "DoubleBuffer.cpp",
-              "DocumentMoniker": "C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\DoubleBuffer.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\DoubleBuffer.cpp",
               "RelativeDocumentMoniker": "Look_and_Shoot\\DoubleBuffer.cpp",
-              "ToolTip": "C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\DoubleBuffer.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\DoubleBuffer.cpp",
               "RelativeToolTip": "Look_and_Shoot\\DoubleBuffer.cpp",
               "ViewState": "AgIAADkAAAAAAAAAAAAWwEIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -178,210 +171,203 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 5,
               "Title": "GameManager.h",
-              "DocumentMoniker": "C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\GameManager.h",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\GameManager.h",
               "RelativeDocumentMoniker": "Look_and_Shoot\\GameManager.h",
-              "ToolTip": "C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\GameManager.h",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\GameManager.h",
               "RelativeToolTip": "Look_and_Shoot\\GameManager.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAtwCUAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-06-19T05:12:52.334Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "GameManager.cpp",
-              "DocumentMoniker": "C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\GameManager.cpp",
-              "RelativeDocumentMoniker": "Look_and_Shoot\\GameManager.cpp",
-              "ToolTip": "C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\GameManager.cpp",
-              "RelativeToolTip": "Look_and_Shoot\\GameManager.cpp",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-19T05:18:08.352Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{5d51d786-731c-4256-bf95-6a6dd495c7d7}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{5d51d786-731c-4256-bf95-6a6dd495c7d7}"
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "GameManager.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\GameManager.cpp",
+              "RelativeDocumentMoniker": "Look_and_Shoot\\GameManager.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\GameManager.cpp",
+              "RelativeToolTip": "Look_and_Shoot\\GameManager.cpp",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-19T05:18:08.352Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "GameState.cpp",
-              "DocumentMoniker": "C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\GameState.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\GameState.cpp",
               "RelativeDocumentMoniker": "Look_and_Shoot\\GameState.cpp",
-              "ToolTip": "C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\GameState.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\GameState.cpp",
               "RelativeToolTip": "Look_and_Shoot\\GameState.cpp",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAAA0AAAANAAAAAAAAAA==",
+              "ViewState": "AgIAADkAAAAAAAAAAAAtwEIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-24T05:51:20.247Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Enemy.cpp",
-              "DocumentMoniker": "C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Enemy.cpp",
-              "RelativeDocumentMoniker": "Look_and_Shoot\\Enemy.cpp",
-              "ToolTip": "C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Enemy.cpp",
-              "RelativeToolTip": "Look_and_Shoot\\Enemy.cpp",
-              "ViewState": "AgIAAEQAAAAAAAAAAAAAAE0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-27T05:36:40.65Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Player.h",
-              "DocumentMoniker": "C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Player.h",
-              "RelativeDocumentMoniker": "Look_and_Shoot\\Player.h",
-              "ToolTip": "C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Player.h",
-              "RelativeToolTip": "Look_and_Shoot\\Player.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAMAAAAAAAAAA==",
+              "DocumentIndex": 10,
+              "Title": "Stage.h",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Stage.h",
+              "RelativeDocumentMoniker": "Look_and_Shoot\\Stage.h",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Stage.h",
+              "RelativeToolTip": "Look_and_Shoot\\Stage.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-20T12:34:09.132Z",
+              "WhenOpened": "2025-06-20T12:46:17.236Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Enemy.h",
-              "DocumentMoniker": "C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Enemy.h",
-              "RelativeDocumentMoniker": "Look_and_Shoot\\Enemy.h",
-              "ToolTip": "C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Enemy.h",
-              "RelativeToolTip": "Look_and_Shoot\\Enemy.h",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAUwBUAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-27T05:34:00.705Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "GameOverState.cpp",
-              "DocumentMoniker": "C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\GameOverState.cpp",
-              "RelativeDocumentMoniker": "Look_and_Shoot\\GameOverState.cpp",
-              "ToolTip": "C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\GameOverState.cpp",
-              "RelativeToolTip": "Look_and_Shoot\\GameOverState.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-25T05:02:05.881Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "GameOverState.h",
-              "DocumentMoniker": "C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\GameOverState.h",
-              "RelativeDocumentMoniker": "Look_and_Shoot\\GameOverState.h",
-              "ToolTip": "C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\GameOverState.h",
-              "RelativeToolTip": "Look_and_Shoot\\GameOverState.h",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAkwC4AAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-24T05:50:46.194Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "Stage.cpp",
-              "DocumentMoniker": "C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Stage.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Stage.cpp",
               "RelativeDocumentMoniker": "Look_and_Shoot\\Stage.cpp",
-              "ToolTip": "C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Stage.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Stage.cpp",
               "RelativeToolTip": "Look_and_Shoot\\Stage.cpp",
-              "ViewState": "AgIAACkAAAAAAAAAAAAAABkAAAADAAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAtwC0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-20T11:43:43.335Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Bullet.cpp",
-              "DocumentMoniker": "C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Bullet.cpp",
-              "RelativeDocumentMoniker": "Look_and_Shoot\\Bullet.cpp",
-              "ToolTip": "C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Bullet.cpp",
-              "RelativeToolTip": "Look_and_Shoot\\Bullet.cpp",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAAG8AAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-20T12:56:21.034Z",
+              "DocumentIndex": 11,
+              "Title": "StageState.h",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\StageState.h",
+              "RelativeDocumentMoniker": "Look_and_Shoot\\StageState.h",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\StageState.h",
+              "RelativeToolTip": "Look_and_Shoot\\StageState.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-24T05:45:18.533Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CountDownState.h",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\CountDownState.h",
+              "RelativeDocumentMoniker": "Look_and_Shoot\\CountDownState.h",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\CountDownState.h",
+              "RelativeToolTip": "Look_and_Shoot\\CountDownState.h",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAAAAwAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-24T05:49:10.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CountDownState.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\CountDownState.cpp",
+              "RelativeDocumentMoniker": "Look_and_Shoot\\CountDownState.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\CountDownState.cpp",
+              "RelativeToolTip": "Look_and_Shoot\\CountDownState.cpp",
+              "ViewState": "AgIAACcAAAAAAAAAAAAtwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-24T05:51:20.703Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Enemy.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Enemy.cpp",
+              "RelativeDocumentMoniker": "Look_and_Shoot\\Enemy.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Enemy.cpp",
+              "RelativeToolTip": "Look_and_Shoot\\Enemy.cpp",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAtwFYAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-27T05:36:40.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "GameOverState.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\GameOverState.cpp",
+              "RelativeDocumentMoniker": "Look_and_Shoot\\GameOverState.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\GameOverState.cpp",
+              "RelativeToolTip": "Look_and_Shoot\\GameOverState.cpp",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAwwAgAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-25T05:02:05.881Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Player.h",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Player.h",
+              "RelativeDocumentMoniker": "Look_and_Shoot\\Player.h",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Player.h",
+              "RelativeToolTip": "Look_and_Shoot\\Player.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-20T12:34:09.132Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "GameOverState.h",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\GameOverState.h",
+              "RelativeDocumentMoniker": "Look_and_Shoot\\GameOverState.h",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\GameOverState.h",
+              "RelativeToolTip": "Look_and_Shoot\\GameOverState.h",
+              "ViewState": "AgIAABwAAAAAAAAAAAAkwDcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-24T05:50:46.194Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 8,
+              "Title": "Enemy.h",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Enemy.h",
+              "RelativeDocumentMoniker": "Look_and_Shoot\\Enemy.h",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Enemy.h",
+              "RelativeToolTip": "Look_and_Shoot\\Enemy.h",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAUwBUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-06-27T05:34:00.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Bullet.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Bullet.cpp",
+              "RelativeDocumentMoniker": "Look_and_Shoot\\Bullet.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Bullet.cpp",
+              "RelativeToolTip": "Look_and_Shoot\\Bullet.cpp",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAAG8AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-06-20T12:56:21.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Player.cpp",
-              "DocumentMoniker": "C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Player.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Player.cpp",
               "RelativeDocumentMoniker": "Look_and_Shoot\\Player.cpp",
-              "ToolTip": "C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Player.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Player.cpp",
               "RelativeToolTip": "Look_and_Shoot\\Player.cpp",
-              "ViewState": "AgIAAJUAAAAAAAAAAAAAACAAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAawJAAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-06-20T12:36:03.765Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Stage.h",
-              "DocumentMoniker": "C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Stage.h",
-              "RelativeDocumentMoniker": "Look_and_Shoot\\Stage.h",
-              "ToolTip": "C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Stage.h",
-              "RelativeToolTip": "Look_and_Shoot\\Stage.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAArwA8AAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-20T12:46:17.236Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "StageState.cpp",
-              "DocumentMoniker": "C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\StageState.cpp",
-              "RelativeDocumentMoniker": "Look_and_Shoot\\StageState.cpp",
-              "ToolTip": "C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\StageState.cpp",
-              "RelativeToolTip": "Look_and_Shoot\\StageState.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-24T05:51:56.54Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "StageState.h",
-              "DocumentMoniker": "C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\StageState.h",
-              "RelativeDocumentMoniker": "Look_and_Shoot\\StageState.h",
-              "ToolTip": "C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\StageState.h",
-              "RelativeToolTip": "Look_and_Shoot\\StageState.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-24T05:45:18.533Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "GameState.h",
-              "DocumentMoniker": "C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\GameState.h",
-              "RelativeDocumentMoniker": "Look_and_Shoot\\GameState.h",
-              "ToolTip": "C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\GameState.h",
-              "RelativeToolTip": "Look_and_Shoot\\GameState.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-24T05:49:55.862Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "Bullet.h",
-              "DocumentMoniker": "C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Bullet.h",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Bullet.h",
               "RelativeDocumentMoniker": "Look_and_Shoot\\Bullet.h",
-              "ToolTip": "C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Bullet.h",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Bullet.h",
               "RelativeToolTip": "Look_and_Shoot\\Bullet.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -389,11 +375,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "Look_and_Shoot.cpp",
-              "DocumentMoniker": "C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot.cpp",
               "RelativeDocumentMoniker": "Look_and_Shoot\\Look_and_Shoot.cpp",
-              "ToolTip": "C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot.cpp",
               "RelativeToolTip": "Look_and_Shoot\\Look_and_Shoot.cpp",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABMAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -401,11 +387,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "Object.h",
-              "DocumentMoniker": "C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Object.h",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Object.h",
               "RelativeDocumentMoniker": "Look_and_Shoot\\Object.h",
-              "ToolTip": "C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Object.h",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Object.h",
               "RelativeToolTip": "Look_and_Shoot\\Object.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -415,9 +401,9 @@
               "$type": "Document",
               "DocumentIndex": 25,
               "Title": "Scene.h",
-              "DocumentMoniker": "C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Scene.h",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Scene.h",
               "RelativeDocumentMoniker": "Look_and_Shoot\\Scene.h",
-              "ToolTip": "C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Scene.h",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Scene.h",
               "RelativeToolTip": "Look_and_Shoot\\Scene.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -427,9 +413,9 @@
               "$type": "Document",
               "DocumentIndex": 24,
               "Title": "Object.cpp",
-              "DocumentMoniker": "C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Object.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Object.cpp",
               "RelativeDocumentMoniker": "Look_and_Shoot\\Object.cpp",
-              "ToolTip": "C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Object.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Object.cpp",
               "RelativeToolTip": "Look_and_Shoot\\Object.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
@@ -437,69 +423,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 6,
               "Title": "Title.cpp",
-              "DocumentMoniker": "C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Title.cpp",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Title.cpp",
               "RelativeDocumentMoniker": "Look_and_Shoot\\Title.cpp",
-              "ToolTip": "C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Title.cpp",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Title.cpp",
               "RelativeToolTip": "Look_and_Shoot\\Title.cpp",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAawCwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAtwCoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-20T11:40:45.27Z"
+              "WhenOpened": "2025-06-20T11:40:45.27Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "Title.h",
-              "DocumentMoniker": "C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Title.h",
+              "DocumentMoniker": "C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Title.h",
               "RelativeDocumentMoniker": "Look_and_Shoot\\Title.h",
-              "ToolTip": "C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Title.h",
+              "ToolTip": "C:\\Users\\Administrator\\Desktop\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\Title.h",
               "RelativeToolTip": "Look_and_Shoot\\Title.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-06-20T11:38:52.472Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "CountDownState.cpp",
-              "DocumentMoniker": "C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\CountDownState.cpp",
-              "RelativeDocumentMoniker": "Look_and_Shoot\\CountDownState.cpp",
-              "ToolTip": "C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\CountDownState.cpp",
-              "RelativeToolTip": "Look_and_Shoot\\CountDownState.cpp",
-              "ViewState": "AgIAACsAAAAAAAAAAAAawDQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-06-24T05:51:20.703Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "CountDownState.h",
-              "DocumentMoniker": "C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\CountDownState.h",
-              "RelativeDocumentMoniker": "Look_and_Shoot\\CountDownState.h",
-              "ToolTip": "C:\\Users\\mini\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Look_and_Shoot\\Look_and_Shoot\\Look_and_Shoot\\CountDownState.h",
-              "RelativeToolTip": "Look_and_Shoot\\CountDownState.h",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAawA4AAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-06-24T05:49:10.449Z"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 1908,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             }
           ]
         }

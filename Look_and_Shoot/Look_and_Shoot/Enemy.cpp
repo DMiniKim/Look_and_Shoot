@@ -83,6 +83,8 @@ void Enemy::Disappear(int _x,int _y)
 	{
 		if (Player::hp > 0)
 		{
+			x = 7;
+			y = 7;
 			DoubleBuffer::GetInstance()->WriteBuffer(7, 7, "  ", 0);
 			IsVisual = false;
 			(Player::hp)--;

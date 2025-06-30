@@ -67,13 +67,13 @@ void GameState::Update(Stage* stage)
 		enemy[i].Update();
 	}
 
-	if (player->GetHP() < 1)
-	{	
-		
-		stage->ChangeState(new GameOverState);
-		stage->Init();
-		stage->Update(); 		
-	}
+	//if (player->GetHP() < 1)
+	//{	
+	//	
+	//	stage->ChangeState(new GameOverState);
+	//	stage->Init();
+	//	stage->Update(); 		
+	//}
 }
 
 GameState::~GameState()
