@@ -130,7 +130,7 @@ void Enemy::Disappear(int _x,int _y)
 				if (isXCrossed && isYCrossed)
 				{
 					// Bullet ¼Ò¸ê
-					b.Disappear(bulletCurrX, bulletCurrY);
+					b.Disappear(bulletCurrX, bulletCurrY, (isXCrossed && isYCrossed));
 
 					// Enemy ¼Ò¸ê
 					DoubleBuffer::GetInstance()->WriteBuffer(x, y, "  ", 0);

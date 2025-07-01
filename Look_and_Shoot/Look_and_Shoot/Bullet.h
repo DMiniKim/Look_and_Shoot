@@ -9,6 +9,7 @@ private:
 public:
 	int prevX;
 	int prevY;
+	bool IsHit = false;
 	bool IsVisual = false;
 	bool IsActivate = false;
 	virtual void Init() override;
@@ -16,7 +17,7 @@ public:
 	
 public:
 	void Fire(int dir);
-	void Disappear(int x, int y);
+	void Disappear(int x, int y,bool hit);
 	int GetX();
 	int GetY();
 	int GetPrevX();

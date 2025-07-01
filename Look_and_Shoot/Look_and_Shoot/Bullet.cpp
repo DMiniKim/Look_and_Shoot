@@ -1,6 +1,8 @@
 #include "Bullet.h"
 #include "Player.h"
 #include "DoubleBuffer.h"
+#include "Enemy.h"
+
 
 void Bullet::Init()
 {
@@ -9,6 +11,7 @@ void Bullet::Init()
 	bulletDir = -1;
 	IsActivate = false;
 	IsVisual = false;
+	IsHit = false;
 	shapeArr[0] = "¡ø";
 	shapeArr[1] = "¡ù";
 	shapeArr[2] = "¡û";
@@ -70,7 +73,7 @@ void Bullet::Update()
 		}
 	}
 
-	Disappear(x, y);
+	Disappear(x, y,IsHit);
 }
 
 
@@ -89,9 +92,21 @@ void Bullet::Fire(int dir)
 	
 }
 
-void Bullet::Disappear(int _x, int _y)
+void Bullet::Disappear(int _x, int _y,bool hit)
 {
-	if (_x < 1 || _y < 1 || _x > 29 || _y > 29)
+	if (!hit)
+	{
+		if (_x < 1 || _y < 1 || _x > 29 || _y > 29)
+		{
+			DoubleBuffer::GetInstance()->WriteBuffer(x, y, "  ", 0);
+			IsActivate = false;
+			IsVisual = false;
+			x = 15;
+			y = 15;
+		}
+	}
+	
+	else if (hit)
 	{
 		DoubleBuffer::GetInstance()->WriteBuffer(x, y, "  ", 0);
 		IsActivate = false;
